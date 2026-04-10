@@ -411,7 +411,7 @@ const About = () => (
       ].map((b,i)=><div key={i} className="card" style={{padding:"24px 20px"}}><h3 style={{fontFamily:"var(--font-d)",fontSize:17,fontWeight:700,color:"var(--navy)",marginBottom:10}}>{b.h}</h3><p style={{fontSize:14,color:"var(--text-2)",lineHeight:1.75}}>{b.t}</p></div>)}
       <div style={{background:"linear-gradient(135deg,#0B1B3A,#1E3A6E)",borderRadius:16,padding:"24px 20px"}}>
         <h3 style={{fontFamily:"var(--font-d)",fontSize:17,fontWeight:700,color:"white",marginBottom:8}}>Контакты</h3>
-        <p style={{fontSize:14,color:"rgba(255,255,255,.55)",lineHeight:1.7}}>Проект создан учеником [Название школы].<br/>Номинация «Развитие финансовой грамотности».</p>
+        <p style={{fontSize:14,color:"rgba(255,255,255,.55)",lineHeight:1.7}}>Проект создан учеником МБОУ гимназии имени академика Н.Г.Басова.<br/>Номинация «Развитие финансовой грамотности».</p>
       </div>
     </div>
   </section>
